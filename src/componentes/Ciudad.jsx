@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 //function HolaMundo {}
 
 /*Vista*/
-const Calama = () => {
+const Ciudad = () => {
     return (
         <>
         <h1>Jalama</h1>
@@ -11,4 +11,4 @@ const Calama = () => {
         </>
     )
 }
-export default ciudad
+export default Ciudad

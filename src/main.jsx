@@ -6,7 +6,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import ciudad from './componentes/Calama';
+import Calama from './componentes/Ciudad';
+import Ejercicio01 from './componentes/Ejercicios/Ejercicio01.jsx';
 
 
 const router = createBrowserRouter([
@@ -16,7 +17,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/ciudad",
-  element: <Calama/>
+    element: <Calama/>
+  },
+
+  {
+    path: "/Ejercicio01",
+    element:<Ejercicio01/>
   }
 ])
 
